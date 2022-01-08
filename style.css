@@ -1,0 +1,140 @@
+:root{
+    --lemon: #F5ED08;
+    --white: #FFFFFF;
+    --black: #000000;
+    --mine--shaft: #2C2C2C;
+    --verdun--green: #556A03;
+}
+
+@font-face{
+    font-family: "Ringbearer";
+    src: url("./source/RingbearerMedium-51mgZ.ttf") format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("./source/background.jpg") top center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: initial;
+    font-family: "Roboto";
+
+}
+
+.title__text {
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 876px;
+    text-transform: uppercase;
+    font-family: "Ringbearer";
+    letter-spacing: 5px;
+    color: var(--lemon);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.title__text > span {
+    position: relative;
+    right: 180px;
+}
+
+.signin {
+    margin-top: 20px;
+    margin-left: 760px;
+    /* align-items: center;
+    justify-content: center;
+    display: grid; */
+    border: 3px solid #FFFFFF;
+    border-radius: 15px;
+    width: 50vh;
+    height: 80vh;
+    background: url("./source/duas-torres.png") no-repeat top;
+    background-color: var(--white);
+    box-shadow: 7px 5px 5px rgb(44, 44, 44);
+}
+
+.login__place {
+    font-size: 45px;
+    margin-left: 60px;
+    margin-bottom: 420px;
+    /* padding: 400px; */
+    font-family: "Ringbearer";
+    /* border: 3px solid #FFFFFF; */
+    border-radius: px;
+    position: relative;
+}
+
+.login__place > span{
+    position: relative;
+    top: 10px;
+}
+
+.signin__email {
+    margin-bottom: 12px;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 20px ;
+    /* padding-left: 100px; */
+    /* padding-bottom: 10px; */
+
+}
+
+.signin__name, .signin__password--normal {
+  padding: 15px 120px 0 120px;
+  margin-left: 40px;
+  margin-bottom: 12px;
+  border: solid 1px #4C4F56;
+  border-radius: 9px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.signin__password {
+    margin-bottom: 12px;
+    margin-top: 10px;
+    margin-left: 70px;
+    font-size: 20px ;
+}
+
+.checkbox{
+    font-size: 15px;
+    position: relative;
+    left: px;
+    top: 70px;
+    /* margin-left: px; */
+    padding-left: 10px;
+    padding-right: 0px;
+}
+
+.signin__button{
+    position: relative;
+    bottom: 35px;
+    width: 50%;
+    height: 50px;
+    margin-left: 135px;
+    background-color: var(--verdun--green);
+    border: 1px solid;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: .2s ease;
+}
+
+.signin__button:hover{
+    background: #769202;
+
+}
+
+
+/* .signin__actions {
+    margin-top: 30px;
+} */
